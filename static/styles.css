@@ -493,6 +493,10 @@ body.invite-opened .details-panel {
   font-size: 0.92rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+  word-break: keep-all;
 }
 
 .sealed-note {
@@ -1084,6 +1088,13 @@ body.invite-opened .details-panel {
 
   .open-button {
     width: 100%;
+  }
+
+  .invite-note {
+    font-size: 0.88rem;
+    letter-spacing: 0.1em;
+    width: 100%;
+    max-width: 100%;
   }
 
   .countdown-title {
