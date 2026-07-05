@@ -495,6 +495,21 @@ body.invite-opened .details-panel {
   text-transform: uppercase;
 }
 
+.sealed-note {
+  font-style: italic;
+  color: #4c3f6f;
+  text-align: center;
+  margin: 0 auto 18px;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 440px;
+  padding: 14px 18px;
+  border-radius: 24px;
+  background: rgba(255, 245, 253, 0.82);
+  border: 1px solid rgba(216, 178, 222, 0.35);
+  box-shadow: 0 12px 26px rgba(96, 67, 131, 0.08);
+}
+
 .envelope-wrapper {
   display: grid;
   justify-items: center;
